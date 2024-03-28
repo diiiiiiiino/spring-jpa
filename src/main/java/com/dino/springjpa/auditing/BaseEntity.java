@@ -15,8 +15,8 @@ public class BaseEntity {
 
     @CreatedBy
     @Column(updatable = false)
-    protected String createdBy;
+    private String createdBy;
 
     @LastModifiedBy
-    protected String lastModifiedBy;
+    private String lastModifiedBy;
 }
